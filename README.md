@@ -1,2 +1,12 @@
 # DeltaOne
-This framework is a problem-driven method that explores knowledge one concept at a time, guided by real-world challenges and external resources like AI, books, or domain experts.
+This framework is a problem-driven method that explores knowledge one concept at a time, guided by real-world challenges and external resources like AI, books, or domain experts. Navigation occurs in three distinct directions: moving upward to capture the broader context, downward to deconstruct inner mechanics, or laterally to discover alternative approaches. Because tool usage is unrestricted, a single step can range from a brief web search to comprehensively reading an entire book. The search halts only when true understanding is achieved and the solution is validated by practical reality, which effectively prevents false confidence. Finally, documenting these validated answers leaves a traceable path, organically building a connected web of notes that accurately maps the entire problem-solving process.
+
+## Delta One Operational Manual
+Here is how Delta One operates in the field:
+- **The Objective (The Problem):** You (the Captain) encounter a roadblock in reality (e.g., your Transformer model is throwing an Out-of-Memory error on a long-context prompt). You do not dive in blindly; you deploy Delta One to secure the target.  
+- **Tactical Recon ($\uparrow$ Up):** The squad launches a drone to get the overarching map. _"Captain, this is an Attention mechanism memory bottleneck, part of the broader Transformer architecture."_
+- **Breach and Clear ($\downarrow$ Down):** The squad kicks down the door into the low-level mechanics. _"We are dissecting the standard Softmax matrix multiply now. We are tracing the exact read/write costs down to the GPU's High Bandwidth Memory (HBM) versus SRAM to find the leak."_
+- **Flanking Maneuvers ($\leftrightarrow$ Lateral):** The squad hits a wall and checks the perimeter for better angles. _"Standard dense attention isn't the only way; we are running intel on Sparse Attention and Ring Attention to compare structural trade-offs."_
+- **Intel Network (The Oracles):** Your squad doesn't operate alone. When they need specialized decryption, they radio the Oracles (calling on Gemini, opening the FlashAttention research paper, or interrogating a CUDA memory profiler).
+- **Extraction (The Halting Condition):** The squad doesn't extract until the perimeter is secure. Once the mathematical mechanics make perfect sense to you and the custom memory kernel runs flawlessly in production, you call them back.
+- **The Debrief (Obsidian):** The squad files a concise, zero-fluff After Action Report in your vault. Mission logged.
