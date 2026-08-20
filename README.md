@@ -1,4 +1,4 @@
-![[DeltaOne.jpeg]]
+![DeltaOne](https://github.com/sadegh-pz/DeltaOne/blob/main/assets/DeltaOne.jpeg)
 # DeltaOne
 This framework is a problem-driven method that explores knowledge one concept at a time, guided by real-world challenges and external resources like AI, books, or domain experts. Navigation occurs in three distinct directions: moving upward to capture the broader context, downward to deconstruct inner mechanics, or laterally to discover alternative approaches. Because tool usage is unrestricted, a single step can range from a brief web search to comprehensively reading an entire book. The search halts only when true understanding is achieved and the solution is validated by practical reality, which effectively prevents false confidence. Finally, documenting these validated answers leaves a traceable path, organically building a connected web of notes that accurately maps the entire problem-solving process.
 
